@@ -1,0 +1,10 @@
+C:\Users\maks\source\repos\StartWindow\StartWindow\bin\Debug\StartWindow.exe.config
+C:\Users\maks\source\repos\StartWindow\StartWindow\bin\Debug\StartWindow.exe
+C:\Users\maks\source\repos\StartWindow\StartWindow\bin\Debug\StartWindow.pdb
+C:\Users\maks\source\repos\StartWindow\StartWindow\obj\Debug\StartWindow.csproj.AssemblyReference.cache
+C:\Users\maks\source\repos\StartWindow\StartWindow\obj\Debug\StartWindow.Form1.resources
+C:\Users\maks\source\repos\StartWindow\StartWindow\obj\Debug\StartWindow.Properties.Resources.resources
+C:\Users\maks\source\repos\StartWindow\StartWindow\obj\Debug\StartWindow.csproj.GenerateResource.cache
+C:\Users\maks\source\repos\StartWindow\StartWindow\obj\Debug\StartWindow.csproj.CoreCompileInputs.cache
+C:\Users\maks\source\repos\StartWindow\StartWindow\obj\Debug\StartWindow.exe
+C:\Users\maks\source\repos\StartWindow\StartWindow\obj\Debug\StartWindow.pdb
