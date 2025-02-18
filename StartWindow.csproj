@@ -95,5 +95,11 @@
   <ItemGroup>
     <None Include="Resources\ue5.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capcut-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft-Clipchamp-Logo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

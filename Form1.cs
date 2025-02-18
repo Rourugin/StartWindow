@@ -78,5 +78,42 @@ namespace StartWindow
             Process.Start("\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"");
             Process.Start("\"C:\\Users\\maks\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe\"");
         }
+
+        private void StartupVES_Click(object sender, EventArgs e)
+        {
+            if (IsGoogleChromeVES.Checked == true)
+            {
+                Process.Start("\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"");
+            }
+            if (IsTelegramVES.Checked == true)
+            {
+                Process.Start("\"C:\\Users\\maks\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe\"");
+            }
+            Process.Start("\"C:\\Users\\maks\\AppData\\Local\\CapCut\\Apps\\CapCut.exe\"");
+        }
+
+        private void IsGoogleChromeVES_CheckedChanged(object sender, EventArgs e)
+        {
+            if (IsGoogleChromeVES.Checked == false)
+            {
+                GoogleChromeVES.Enabled = false;
+            }
+            else if (IsGoogleChromeVES.Checked == true)
+            {
+                GoogleChromeVES.Enabled = true;
+            }
+        }
+
+        private void IsTelegramVES_CheckedChanged(object sender, EventArgs e)
+        {
+            if (IsTelegramVES.Checked == false)
+            {
+                TelegramVES.Enabled = false;
+            }
+            else if (IsTelegramVES.Checked == true)
+            {
+                TelegramVES.Enabled = true;
+            }
+        }
     }
 }
