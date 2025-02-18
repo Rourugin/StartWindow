@@ -42,6 +42,11 @@
             this.GoogleChromePS = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.DropDownListGS = new System.Windows.Forms.ComboBox();
+            this.LauncherGS = new System.Windows.Forms.PictureBox();
+            this.plusGS = new System.Windows.Forms.Label();
+            this.IsGoogleChromeGS = new System.Windows.Forms.CheckBox();
+            this.GoogleChromeGS = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -54,6 +59,7 @@
             this.GoogleChromeCS = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.CapCutVESLbl = new System.Windows.Forms.Label();
             this.IsTelegramVES = new System.Windows.Forms.CheckBox();
             this.IsGoogleChromeVES = new System.Windows.Forms.CheckBox();
             this.StartupVES = new System.Windows.Forms.Button();
@@ -63,12 +69,14 @@
             this.plusVES1 = new System.Windows.Forms.Label();
             this.GoogleChromeVES = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.CapCutVESLbl = new System.Windows.Forms.Label();
+            this.StartupGS = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UnrealEngine)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IdePS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GoogleChromePS)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LauncherGS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GoogleChromeGS)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TelegramCS)).BeginInit();
@@ -143,7 +151,9 @@
             // 
             // UnrealEngine
             // 
+            this.UnrealEngine.BackgroundImage = global::StartWindow.Properties.Resources.ue5;
             this.UnrealEngine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.UnrealEngine.InitialImage = null;
             this.UnrealEngine.Location = new System.Drawing.Point(414, 88);
             this.UnrealEngine.Name = "UnrealEngine";
             this.UnrealEngine.Size = new System.Drawing.Size(155, 140);
@@ -179,7 +189,9 @@
             // 
             // IdePS
             // 
+            this.IdePS.BackgroundImage = global::StartWindow.Properties.Resources.VS_logo;
             this.IdePS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.IdePS.InitialImage = null;
             this.IdePS.Location = new System.Drawing.Point(213, 88);
             this.IdePS.Name = "IdePS";
             this.IdePS.Size = new System.Drawing.Size(155, 140);
@@ -221,12 +233,79 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.StartupGS);
+            this.groupBox2.Controls.Add(this.DropDownListGS);
+            this.groupBox2.Controls.Add(this.LauncherGS);
+            this.groupBox2.Controls.Add(this.plusGS);
+            this.groupBox2.Controls.Add(this.IsGoogleChromeGS);
+            this.groupBox2.Controls.Add(this.GoogleChromeGS);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Location = new System.Drawing.Point(668, 196);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(567, 356);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
+            // 
+            // DropDownListGS
+            // 
+            this.DropDownListGS.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.DropDownListGS.FormattingEnabled = true;
+            this.DropDownListGS.Items.AddRange(new object[] {
+            "Steam",
+            "Epic Games"});
+            this.DropDownListGS.Location = new System.Drawing.Point(381, 242);
+            this.DropDownListGS.Name = "DropDownListGS";
+            this.DropDownListGS.Size = new System.Drawing.Size(155, 21);
+            this.DropDownListGS.TabIndex = 24;
+            this.DropDownListGS.Text = "Steam";
+            this.DropDownListGS.SelectedIndexChanged += new System.EventHandler(this.DropDownListGS_SelectedIndexChanged);
+            // 
+            // LauncherGS
+            // 
+            this.LauncherGS.BackgroundImage = global::StartWindow.Properties.Resources.steam_logo;
+            this.LauncherGS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LauncherGS.InitialImage = ((System.Drawing.Image)(resources.GetObject("LauncherGS.InitialImage")));
+            this.LauncherGS.Location = new System.Drawing.Point(381, 88);
+            this.LauncherGS.Name = "LauncherGS";
+            this.LauncherGS.Size = new System.Drawing.Size(155, 140);
+            this.LauncherGS.TabIndex = 23;
+            this.LauncherGS.TabStop = false;
+            // 
+            // plusGS
+            // 
+            this.plusGS.AutoSize = true;
+            this.plusGS.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.plusGS.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.plusGS.Location = new System.Drawing.Point(271, 135);
+            this.plusGS.Name = "plusGS";
+            this.plusGS.Size = new System.Drawing.Size(40, 42);
+            this.plusGS.TabIndex = 22;
+            this.plusGS.Text = "+";
+            // 
+            // IsGoogleChromeGS
+            // 
+            this.IsGoogleChromeGS.AutoSize = true;
+            this.IsGoogleChromeGS.Checked = true;
+            this.IsGoogleChromeGS.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.IsGoogleChromeGS.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.IsGoogleChromeGS.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.IsGoogleChromeGS.Location = new System.Drawing.Point(31, 242);
+            this.IsGoogleChromeGS.Name = "IsGoogleChromeGS";
+            this.IsGoogleChromeGS.Size = new System.Drawing.Size(164, 28);
+            this.IsGoogleChromeGS.TabIndex = 22;
+            this.IsGoogleChromeGS.Text = "Google Chrome";
+            this.IsGoogleChromeGS.UseVisualStyleBackColor = true;
+            // 
+            // GoogleChromeGS
+            // 
+            this.GoogleChromeGS.BackgroundImage = global::StartWindow.Properties.Resources.google_chrome;
+            this.GoogleChromeGS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.GoogleChromeGS.InitialImage = ((System.Drawing.Image)(resources.GetObject("GoogleChromeGS.InitialImage")));
+            this.GoogleChromeGS.Location = new System.Drawing.Point(40, 88);
+            this.GoogleChromeGS.Name = "GoogleChromeGS";
+            this.GoogleChromeGS.Size = new System.Drawing.Size(155, 140);
+            this.GoogleChromeGS.TabIndex = 22;
+            this.GoogleChromeGS.TabStop = false;
             // 
             // label3
             // 
@@ -312,6 +391,7 @@
             // 
             // TelegramCS
             // 
+            this.TelegramCS.BackgroundImage = global::StartWindow.Properties.Resources.tg_logo;
             this.TelegramCS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.TelegramCS.InitialImage = ((System.Drawing.Image)(resources.GetObject("TelegramCS.InitialImage")));
             this.TelegramCS.Location = new System.Drawing.Point(356, 79);
@@ -333,6 +413,7 @@
             // 
             // GoogleChromeCS
             // 
+            this.GoogleChromeCS.BackgroundImage = global::StartWindow.Properties.Resources.google_chrome;
             this.GoogleChromeCS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.GoogleChromeCS.InitialImage = ((System.Drawing.Image)(resources.GetObject("GoogleChromeCS.InitialImage")));
             this.GoogleChromeCS.Location = new System.Drawing.Point(52, 79);
@@ -369,6 +450,17 @@
             this.groupBox5.Size = new System.Drawing.Size(567, 356);
             this.groupBox5.TabIndex = 4;
             this.groupBox5.TabStop = false;
+            // 
+            // CapCutVESLbl
+            // 
+            this.CapCutVESLbl.AutoSize = true;
+            this.CapCutVESLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CapCutVESLbl.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.CapCutVESLbl.Location = new System.Drawing.Point(440, 214);
+            this.CapCutVESLbl.Name = "CapCutVESLbl";
+            this.CapCutVESLbl.Size = new System.Drawing.Size(72, 24);
+            this.CapCutVESLbl.TabIndex = 21;
+            this.CapCutVESLbl.Text = "CapCut";
             // 
             // IsTelegramVES
             // 
@@ -415,7 +507,7 @@
             // 
             // VideoEditorVES
             // 
-            this.VideoEditorVES.BackgroundImage = global::StartWindow.Properties.Resources.Microsoft_Clipchamp_Logo1;
+            this.VideoEditorVES.BackgroundImage = global::StartWindow.Properties.Resources.capcut_logo;
             this.VideoEditorVES.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.VideoEditorVES.Location = new System.Drawing.Point(406, 66);
             this.VideoEditorVES.Name = "VideoEditorVES";
@@ -436,6 +528,7 @@
             // 
             // TelegramVES
             // 
+            this.TelegramVES.BackgroundImage = global::StartWindow.Properties.Resources.tg_logo;
             this.TelegramVES.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.TelegramVES.InitialImage = ((System.Drawing.Image)(resources.GetObject("TelegramVES.InitialImage")));
             this.TelegramVES.Location = new System.Drawing.Point(213, 66);
@@ -457,6 +550,7 @@
             // 
             // GoogleChromeVES
             // 
+            this.GoogleChromeVES.BackgroundImage = global::StartWindow.Properties.Resources.google_chrome;
             this.GoogleChromeVES.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.GoogleChromeVES.InitialImage = ((System.Drawing.Image)(resources.GetObject("GoogleChromeVES.InitialImage")));
             this.GoogleChromeVES.Location = new System.Drawing.Point(6, 66);
@@ -476,16 +570,18 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Video Editind Set";
             // 
-            // CapCutVESLbl
+            // StartupGS
             // 
-            this.CapCutVESLbl.AutoSize = true;
-            this.CapCutVESLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CapCutVESLbl.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.CapCutVESLbl.Location = new System.Drawing.Point(440, 214);
-            this.CapCutVESLbl.Name = "CapCutVESLbl";
-            this.CapCutVESLbl.Size = new System.Drawing.Size(72, 24);
-            this.CapCutVESLbl.TabIndex = 21;
-            this.CapCutVESLbl.Text = "CapCut";
+            this.StartupGS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.StartupGS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.StartupGS.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.StartupGS.Location = new System.Drawing.Point(183, 299);
+            this.StartupGS.Name = "StartupGS";
+            this.StartupGS.Size = new System.Drawing.Size(185, 45);
+            this.StartupGS.TabIndex = 25;
+            this.StartupGS.Text = "Startup";
+            this.StartupGS.UseVisualStyleBackColor = false;
+            this.StartupGS.Click += new System.EventHandler(this.StartupGS_Click);
             // 
             // Form1
             // 
@@ -512,6 +608,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.GoogleChromePS)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LauncherGS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GoogleChromeGS)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -564,6 +662,12 @@
         private System.Windows.Forms.CheckBox IsTelegramVES;
         private System.Windows.Forms.CheckBox IsGoogleChromeVES;
         private System.Windows.Forms.Label CapCutVESLbl;
+        private System.Windows.Forms.PictureBox LauncherGS;
+        private System.Windows.Forms.Label plusGS;
+        private System.Windows.Forms.CheckBox IsGoogleChromeGS;
+        private System.Windows.Forms.PictureBox GoogleChromeGS;
+        private System.Windows.Forms.ComboBox DropDownListGS;
+        private System.Windows.Forms.Button StartupGS;
     }
 }
 

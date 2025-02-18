@@ -73,6 +73,16 @@ namespace StartWindow.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap epic_games_logo {
+            get {
+                object obj = ResourceManager.GetObject("epic-games-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap google_chrome {
             get {
                 object obj = ResourceManager.GetObject("google-chrome", resourceCulture);
@@ -83,19 +93,9 @@ namespace StartWindow.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Microsoft_Clipchamp_Logo {
+        internal static System.Drawing.Bitmap steam_logo {
             get {
-                object obj = ResourceManager.GetObject("Microsoft-Clipchamp-Logo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Microsoft_Clipchamp_Logo1 {
-            get {
-                object obj = ResourceManager.GetObject("Microsoft-Clipchamp-Logo1", resourceCulture);
+                object obj = ResourceManager.GetObject("steam_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +106,16 @@ namespace StartWindow.Properties {
         internal static System.Drawing.Bitmap tg_logo {
             get {
                 object obj = ResourceManager.GetObject("tg-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trails_in_the_sky_logo {
+            get {
+                object obj = ResourceManager.GetObject("trails-in-the-sky-logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

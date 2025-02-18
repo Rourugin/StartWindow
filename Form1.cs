@@ -115,5 +115,33 @@ namespace StartWindow
                 TelegramVES.Enabled = true;
             }
         }
+
+        private void DropDownListGS_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (DropDownListGS.SelectedIndex == 0)
+            {
+                LauncherGS.BackgroundImage = Resources.steam_logo;
+            }
+            else if (DropDownListGS.SelectedIndex == 1)
+            {
+                LauncherGS.BackgroundImage = Resources.epic_games_logo;
+            }
+        }
+
+        private void StartupGS_Click(object sender, EventArgs e)
+        {
+            if (IsGoogleChromeGS.Checked == true)
+            {
+                Process.Start("\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"");
+            }
+            if (DropDownListGS.SelectedIndex == 0)
+            {
+                Process.Start("\"C:\\Program Files (x86)\\Steam\\steam.exe\"");
+            }
+            else if (DropDownListGS.SelectedIndex == 1)
+            {
+                Process.Start("\"C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win32\\EpicGamesLauncher.exe\"");
+            }
+        }
     }
 }
