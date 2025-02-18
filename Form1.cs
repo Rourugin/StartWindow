@@ -72,5 +72,11 @@ namespace StartWindow
                 Process.Start("\"C:\\Users\\maks\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"");
             }
         }
+
+        private void StartupCS_Click(object sender, EventArgs e)
+        {
+            Process.Start("\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"");
+            Process.Start("\"C:\\Users\\maks\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe\"");
+        }
     }
 }
