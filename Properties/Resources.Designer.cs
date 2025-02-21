@@ -73,9 +73,29 @@ namespace StartWindow.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap discord_logo {
+            get {
+                object obj = ResourceManager.GetObject("discord-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap epic_games_logo {
             get {
                 object obj = ResourceManager.GetObject("epic-games-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap git_bash_logo {
+            get {
+                object obj = ResourceManager.GetObject("git-bash-logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,6 +166,26 @@ namespace StartWindow.Properties {
         internal static System.Drawing.Bitmap VSCode_logo {
             get {
                 object obj = ResourceManager.GetObject("VSCode-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_logo {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yandex_mus_logo {
+            get {
+                object obj = ResourceManager.GetObject("yandex-mus-logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

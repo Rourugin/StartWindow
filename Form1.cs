@@ -71,12 +71,14 @@ namespace StartWindow
             {
                 Process.Start("\"C:\\Users\\maks\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"");
             }
+            System.Windows.Forms.Application.Exit();
         }
 
         private void StartupCS_Click(object sender, EventArgs e)
         {
             Process.Start("\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"");
             Process.Start("\"C:\\Users\\maks\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe\"");
+            System.Windows.Forms.Application.Exit();
         }
 
         private void StartupVES_Click(object sender, EventArgs e)
@@ -90,6 +92,7 @@ namespace StartWindow
                 Process.Start("\"C:\\Users\\maks\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe\"");
             }
             Process.Start("\"C:\\Users\\maks\\AppData\\Local\\CapCut\\Apps\\CapCut.exe\"");
+            System.Windows.Forms.Application.Exit();
         }
 
         private void IsGoogleChromeVES_CheckedChanged(object sender, EventArgs e)
@@ -142,6 +145,62 @@ namespace StartWindow
             {
                 Process.Start("\"C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win32\\EpicGamesLauncher.exe\"");
             }
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void StartupCustomSet_Click(object sender, EventArgs e)
+        {
+            if (GoogleChromeCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"");
+            }
+            if (TelegramCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Users\\maks\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe\"");
+            }
+            if (CapCutCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Users\\maks\\AppData\\Local\\CapCut\\Apps\\CapCut.exe\"");
+            }
+            if (DiscordCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Users\\maks\\Documents\\ds\\discord.bat\"");
+                Process.Start("\"C:\\Users\\maks\\AppData\\Local\\Discord\\Update.exe\"");
+            }
+            if (EpicGamesCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win32\\EpicGamesLauncher.exe\"");
+            }
+            if (GitBashCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Program Files\\Git\\git-bash.exe\"");
+            }
+            if (SteamCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Program Files (x86)\\Steam\\steam.exe\"");
+            }
+            if (UE5Custom.Checked == true)
+            {
+                Process.Start("\"C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Binaries\\Win64\\UnrealEditor.exe\"");
+            }
+            if (VSCodeCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Users\\maks\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"");
+            }
+            if (VisualStudioCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe\"");
+            }
+            if (WhatsappCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2506.4.0_x64__cv1g1gvanyjgm\\WhatsApp.exe\"");
+            }
+            if (YandexMusicCustom.Checked == true)
+            {
+                Process.Start("\"C:\\Program Files\\WindowsApps\\A025C540.Yandex.Music_4.54.8517.0_x64__vfvw9svesycw6\\Y.Music.exe\"");
+            }
+
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

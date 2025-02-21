@@ -101,5 +101,17 @@
   <ItemGroup>
     <None Include="Resources\trails-in-the-sky-logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yandex-mus-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discord-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\git-bash-logo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

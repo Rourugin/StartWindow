@@ -42,6 +42,7 @@
             this.GoogleChromePS = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.StartupGS = new System.Windows.Forms.Button();
             this.DropDownListGS = new System.Windows.Forms.ComboBox();
             this.LauncherGS = new System.Windows.Forms.PictureBox();
             this.plusGS = new System.Windows.Forms.Label();
@@ -49,6 +50,31 @@
             this.GoogleChromeGS = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.YandexMusicCustom = new System.Windows.Forms.CheckBox();
+            this.WhatsappCustom = new System.Windows.Forms.CheckBox();
+            this.VisualStudioCustom = new System.Windows.Forms.CheckBox();
+            this.VSCodeCustom = new System.Windows.Forms.CheckBox();
+            this.UE5Custom = new System.Windows.Forms.CheckBox();
+            this.SteamCustom = new System.Windows.Forms.CheckBox();
+            this.GitBashCustom = new System.Windows.Forms.CheckBox();
+            this.EpicGamesCustom = new System.Windows.Forms.CheckBox();
+            this.DiscordCustom = new System.Windows.Forms.CheckBox();
+            this.CapCutCustom = new System.Windows.Forms.CheckBox();
+            this.TelegramCustom = new System.Windows.Forms.CheckBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.GoogleChromeCustom = new System.Windows.Forms.CheckBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.StartupCustomSet = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.StartupCS = new System.Windows.Forms.Button();
@@ -69,7 +95,6 @@
             this.plusVES1 = new System.Windows.Forms.Label();
             this.GoogleChromeVES = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.StartupGS = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UnrealEngine)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IdePS)).BeginInit();
@@ -78,6 +103,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.LauncherGS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GoogleChromeGS)).BeginInit();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TelegramCS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GoogleChromeCS)).BeginInit();
@@ -246,6 +283,19 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             // 
+            // StartupGS
+            // 
+            this.StartupGS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.StartupGS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.StartupGS.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.StartupGS.Location = new System.Drawing.Point(183, 299);
+            this.StartupGS.Name = "StartupGS";
+            this.StartupGS.Size = new System.Drawing.Size(185, 45);
+            this.StartupGS.TabIndex = 25;
+            this.StartupGS.Text = "Startup";
+            this.StartupGS.UseVisualStyleBackColor = false;
+            this.StartupGS.Click += new System.EventHandler(this.StartupGS_Click);
+            // 
             // DropDownListGS
             // 
             this.DropDownListGS.BackColor = System.Drawing.SystemColors.ScrollBar;
@@ -320,6 +370,31 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.YandexMusicCustom);
+            this.groupBox3.Controls.Add(this.WhatsappCustom);
+            this.groupBox3.Controls.Add(this.VisualStudioCustom);
+            this.groupBox3.Controls.Add(this.VSCodeCustom);
+            this.groupBox3.Controls.Add(this.UE5Custom);
+            this.groupBox3.Controls.Add(this.SteamCustom);
+            this.groupBox3.Controls.Add(this.GitBashCustom);
+            this.groupBox3.Controls.Add(this.EpicGamesCustom);
+            this.groupBox3.Controls.Add(this.DiscordCustom);
+            this.groupBox3.Controls.Add(this.CapCutCustom);
+            this.groupBox3.Controls.Add(this.TelegramCustom);
+            this.groupBox3.Controls.Add(this.pictureBox12);
+            this.groupBox3.Controls.Add(this.pictureBox11);
+            this.groupBox3.Controls.Add(this.pictureBox10);
+            this.groupBox3.Controls.Add(this.pictureBox9);
+            this.groupBox3.Controls.Add(this.pictureBox8);
+            this.groupBox3.Controls.Add(this.pictureBox7);
+            this.groupBox3.Controls.Add(this.pictureBox6);
+            this.groupBox3.Controls.Add(this.pictureBox5);
+            this.groupBox3.Controls.Add(this.pictureBox4);
+            this.groupBox3.Controls.Add(this.pictureBox3);
+            this.groupBox3.Controls.Add(this.pictureBox2);
+            this.groupBox3.Controls.Add(this.GoogleChromeCustom);
+            this.groupBox3.Controls.Add(this.pictureBox1);
+            this.groupBox3.Controls.Add(this.StartupCustomSet);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Location = new System.Drawing.Point(1265, 196);
             this.groupBox3.Name = "groupBox3";
@@ -327,6 +402,282 @@
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "1";
+            // 
+            // YandexMusicCustom
+            // 
+            this.YandexMusicCustom.AutoSize = true;
+            this.YandexMusicCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.YandexMusicCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.YandexMusicCustom.Location = new System.Drawing.Point(396, 632);
+            this.YandexMusicCustom.Name = "YandexMusicCustom";
+            this.YandexMusicCustom.Size = new System.Drawing.Size(119, 22);
+            this.YandexMusicCustom.TabIndex = 25;
+            this.YandexMusicCustom.Text = "Yandex Music";
+            this.YandexMusicCustom.UseVisualStyleBackColor = true;
+            // 
+            // WhatsappCustom
+            // 
+            this.WhatsappCustom.AutoSize = true;
+            this.WhatsappCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WhatsappCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.WhatsappCustom.Location = new System.Drawing.Point(219, 632);
+            this.WhatsappCustom.Name = "WhatsappCustom";
+            this.WhatsappCustom.Size = new System.Drawing.Size(94, 22);
+            this.WhatsappCustom.TabIndex = 24;
+            this.WhatsappCustom.Text = "Whatsapp";
+            this.WhatsappCustom.UseVisualStyleBackColor = true;
+            // 
+            // VisualStudioCustom
+            // 
+            this.VisualStudioCustom.AutoSize = true;
+            this.VisualStudioCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.VisualStudioCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.VisualStudioCustom.Location = new System.Drawing.Point(31, 632);
+            this.VisualStudioCustom.Name = "VisualStudioCustom";
+            this.VisualStudioCustom.Size = new System.Drawing.Size(112, 22);
+            this.VisualStudioCustom.TabIndex = 23;
+            this.VisualStudioCustom.Text = "Visual Studio";
+            this.VisualStudioCustom.UseVisualStyleBackColor = true;
+            // 
+            // VSCodeCustom
+            // 
+            this.VSCodeCustom.AutoSize = true;
+            this.VSCodeCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.VSCodeCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.VSCodeCustom.Location = new System.Drawing.Point(396, 491);
+            this.VSCodeCustom.Name = "VSCodeCustom";
+            this.VSCodeCustom.Size = new System.Drawing.Size(82, 22);
+            this.VSCodeCustom.TabIndex = 22;
+            this.VSCodeCustom.Text = "VSCode";
+            this.VSCodeCustom.UseVisualStyleBackColor = true;
+            // 
+            // UE5Custom
+            // 
+            this.UE5Custom.AutoSize = true;
+            this.UE5Custom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.UE5Custom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.UE5Custom.Location = new System.Drawing.Point(219, 491);
+            this.UE5Custom.Name = "UE5Custom";
+            this.UE5Custom.Size = new System.Drawing.Size(131, 22);
+            this.UE5Custom.TabIndex = 21;
+            this.UE5Custom.Text = "Unreal Engine 5";
+            this.UE5Custom.UseVisualStyleBackColor = true;
+            // 
+            // SteamCustom
+            // 
+            this.SteamCustom.AutoSize = true;
+            this.SteamCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SteamCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.SteamCustom.Location = new System.Drawing.Point(31, 491);
+            this.SteamCustom.Name = "SteamCustom";
+            this.SteamCustom.Size = new System.Drawing.Size(70, 22);
+            this.SteamCustom.TabIndex = 20;
+            this.SteamCustom.Text = "Steam";
+            this.SteamCustom.UseVisualStyleBackColor = true;
+            // 
+            // GitBashCustom
+            // 
+            this.GitBashCustom.AutoSize = true;
+            this.GitBashCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GitBashCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.GitBashCustom.Location = new System.Drawing.Point(396, 339);
+            this.GitBashCustom.Name = "GitBashCustom";
+            this.GitBashCustom.Size = new System.Drawing.Size(84, 22);
+            this.GitBashCustom.TabIndex = 19;
+            this.GitBashCustom.Text = "Git Bash";
+            this.GitBashCustom.UseVisualStyleBackColor = true;
+            // 
+            // EpicGamesCustom
+            // 
+            this.EpicGamesCustom.AutoSize = true;
+            this.EpicGamesCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.EpicGamesCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.EpicGamesCustom.Location = new System.Drawing.Point(219, 338);
+            this.EpicGamesCustom.Name = "EpicGamesCustom";
+            this.EpicGamesCustom.Size = new System.Drawing.Size(109, 22);
+            this.EpicGamesCustom.TabIndex = 18;
+            this.EpicGamesCustom.Text = "Epic Games";
+            this.EpicGamesCustom.UseVisualStyleBackColor = true;
+            // 
+            // DiscordCustom
+            // 
+            this.DiscordCustom.AutoSize = true;
+            this.DiscordCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DiscordCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.DiscordCustom.Location = new System.Drawing.Point(33, 339);
+            this.DiscordCustom.Name = "DiscordCustom";
+            this.DiscordCustom.Size = new System.Drawing.Size(79, 22);
+            this.DiscordCustom.TabIndex = 17;
+            this.DiscordCustom.Text = "Discord";
+            this.DiscordCustom.UseVisualStyleBackColor = true;
+            // 
+            // CapCutCustom
+            // 
+            this.CapCutCustom.AutoSize = true;
+            this.CapCutCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CapCutCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.CapCutCustom.Location = new System.Drawing.Point(396, 183);
+            this.CapCutCustom.Name = "CapCutCustom";
+            this.CapCutCustom.Size = new System.Drawing.Size(77, 22);
+            this.CapCutCustom.TabIndex = 16;
+            this.CapCutCustom.Text = "CapCut";
+            this.CapCutCustom.UseVisualStyleBackColor = true;
+            // 
+            // TelegramCustom
+            // 
+            this.TelegramCustom.AutoSize = true;
+            this.TelegramCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TelegramCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.TelegramCustom.Location = new System.Drawing.Point(219, 183);
+            this.TelegramCustom.Name = "TelegramCustom";
+            this.TelegramCustom.Size = new System.Drawing.Size(89, 22);
+            this.TelegramCustom.TabIndex = 15;
+            this.TelegramCustom.Text = "Telegram";
+            this.TelegramCustom.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackgroundImage = global::StartWindow.Properties.Resources.yandex_mus_logo;
+            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox12.Location = new System.Drawing.Point(396, 526);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(127, 100);
+            this.pictureBox12.TabIndex = 14;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackgroundImage = global::StartWindow.Properties.Resources.WhatsApp_logo;
+            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox11.Location = new System.Drawing.Point(219, 526);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(128, 100);
+            this.pictureBox11.TabIndex = 13;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackgroundImage = global::StartWindow.Properties.Resources.VS_logo;
+            this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox10.Location = new System.Drawing.Point(31, 526);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(128, 100);
+            this.pictureBox10.TabIndex = 12;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackgroundImage = global::StartWindow.Properties.Resources.VSCode_logo;
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox9.Location = new System.Drawing.Point(396, 388);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(127, 97);
+            this.pictureBox9.TabIndex = 11;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackgroundImage = global::StartWindow.Properties.Resources.ue5;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox8.Location = new System.Drawing.Point(219, 388);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(128, 97);
+            this.pictureBox8.TabIndex = 10;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackgroundImage = global::StartWindow.Properties.Resources.steam_logo;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox7.Location = new System.Drawing.Point(31, 388);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(128, 97);
+            this.pictureBox7.TabIndex = 9;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = global::StartWindow.Properties.Resources.git_bash_logo;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Location = new System.Drawing.Point(396, 230);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(127, 102);
+            this.pictureBox6.TabIndex = 8;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = global::StartWindow.Properties.Resources.epic_games_logo;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(219, 230);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(128, 102);
+            this.pictureBox5.TabIndex = 7;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::StartWindow.Properties.Resources.discord_logo;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(31, 230);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(128, 102);
+            this.pictureBox4.TabIndex = 6;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::StartWindow.Properties.Resources.capcut_logo;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(396, 88);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(127, 89);
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::StartWindow.Properties.Resources.tg_logo;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(219, 88);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(128, 89);
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // GoogleChromeCustom
+            // 
+            this.GoogleChromeCustom.AutoSize = true;
+            this.GoogleChromeCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GoogleChromeCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.GoogleChromeCustom.Location = new System.Drawing.Point(31, 183);
+            this.GoogleChromeCustom.Name = "GoogleChromeCustom";
+            this.GoogleChromeCustom.Size = new System.Drawing.Size(134, 22);
+            this.GoogleChromeCustom.TabIndex = 3;
+            this.GoogleChromeCustom.Text = "Google Chrome";
+            this.GoogleChromeCustom.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::StartWindow.Properties.Resources.google_chrome;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(31, 88);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(128, 89);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // StartupCustomSet
+            // 
+            this.StartupCustomSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.StartupCustomSet.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.StartupCustomSet.Location = new System.Drawing.Point(110, 673);
+            this.StartupCustomSet.Name = "StartupCustomSet";
+            this.StartupCustomSet.Size = new System.Drawing.Size(345, 50);
+            this.StartupCustomSet.TabIndex = 1;
+            this.StartupCustomSet.Text = "Startup";
+            this.StartupCustomSet.UseVisualStyleBackColor = false;
+            this.StartupCustomSet.Click += new System.EventHandler(this.StartupCustomSet_Click);
             // 
             // label4
             // 
@@ -570,19 +921,6 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Video Editind Set";
             // 
-            // StartupGS
-            // 
-            this.StartupGS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.StartupGS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.StartupGS.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.StartupGS.Location = new System.Drawing.Point(183, 299);
-            this.StartupGS.Name = "StartupGS";
-            this.StartupGS.Size = new System.Drawing.Size(185, 45);
-            this.StartupGS.TabIndex = 25;
-            this.StartupGS.Text = "Startup";
-            this.StartupGS.UseVisualStyleBackColor = false;
-            this.StartupGS.Click += new System.EventHandler(this.StartupGS_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -612,6 +950,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.GoogleChromeGS)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TelegramCS)).EndInit();
@@ -668,6 +1018,31 @@
         private System.Windows.Forms.PictureBox GoogleChromeGS;
         private System.Windows.Forms.ComboBox DropDownListGS;
         private System.Windows.Forms.Button StartupGS;
+        private System.Windows.Forms.Button StartupCustomSet;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.CheckBox GoogleChromeCustom;
+        private System.Windows.Forms.CheckBox WhatsappCustom;
+        private System.Windows.Forms.CheckBox VisualStudioCustom;
+        private System.Windows.Forms.CheckBox VSCodeCustom;
+        private System.Windows.Forms.CheckBox UE5Custom;
+        private System.Windows.Forms.CheckBox SteamCustom;
+        private System.Windows.Forms.CheckBox GitBashCustom;
+        private System.Windows.Forms.CheckBox EpicGamesCustom;
+        private System.Windows.Forms.CheckBox DiscordCustom;
+        private System.Windows.Forms.CheckBox CapCutCustom;
+        private System.Windows.Forms.CheckBox TelegramCustom;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.CheckBox YandexMusicCustom;
     }
 }
 
