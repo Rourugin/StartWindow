@@ -191,13 +191,9 @@ namespace StartWindow
             {
                 Process.Start("\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe\"");
             }
-            if (WhatsappCustom.Checked == true)
-            {
-                Process.Start("\"C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2506.4.0_x64__cv1g1gvanyjgm\\WhatsApp.exe\"");
-            }
             if (YandexMusicCustom.Checked == true)
             {
-                Process.Start("\"C:\\Program Files\\WindowsApps\\A025C540.Yandex.Music_4.54.8517.0_x64__vfvw9svesycw6\\Y.Music.exe\"");
+                Process.Start("\"C:\\Users\\maks\\AppData\\Local\\Programs\\YandexMusic\\Яндекс Музыка.exe\"");
             }
 
             System.Windows.Forms.Application.Exit();

@@ -51,7 +51,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.YandexMusicCustom = new System.Windows.Forms.CheckBox();
-            this.WhatsappCustom = new System.Windows.Forms.CheckBox();
             this.VisualStudioCustom = new System.Windows.Forms.CheckBox();
             this.VSCodeCustom = new System.Windows.Forms.CheckBox();
             this.UE5Custom = new System.Windows.Forms.CheckBox();
@@ -62,7 +61,6 @@
             this.CapCutCustom = new System.Windows.Forms.CheckBox();
             this.TelegramCustom = new System.Windows.Forms.CheckBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -104,7 +102,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.GoogleChromeGS)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -371,7 +368,6 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.YandexMusicCustom);
-            this.groupBox3.Controls.Add(this.WhatsappCustom);
             this.groupBox3.Controls.Add(this.VisualStudioCustom);
             this.groupBox3.Controls.Add(this.VSCodeCustom);
             this.groupBox3.Controls.Add(this.UE5Custom);
@@ -382,7 +378,6 @@
             this.groupBox3.Controls.Add(this.CapCutCustom);
             this.groupBox3.Controls.Add(this.TelegramCustom);
             this.groupBox3.Controls.Add(this.pictureBox12);
-            this.groupBox3.Controls.Add(this.pictureBox11);
             this.groupBox3.Controls.Add(this.pictureBox10);
             this.groupBox3.Controls.Add(this.pictureBox9);
             this.groupBox3.Controls.Add(this.pictureBox8);
@@ -408,31 +403,19 @@
             this.YandexMusicCustom.AutoSize = true;
             this.YandexMusicCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.YandexMusicCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.YandexMusicCustom.Location = new System.Drawing.Point(396, 632);
+            this.YandexMusicCustom.Location = new System.Drawing.Point(316, 632);
             this.YandexMusicCustom.Name = "YandexMusicCustom";
             this.YandexMusicCustom.Size = new System.Drawing.Size(119, 22);
             this.YandexMusicCustom.TabIndex = 25;
             this.YandexMusicCustom.Text = "Yandex Music";
             this.YandexMusicCustom.UseVisualStyleBackColor = true;
             // 
-            // WhatsappCustom
-            // 
-            this.WhatsappCustom.AutoSize = true;
-            this.WhatsappCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.WhatsappCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.WhatsappCustom.Location = new System.Drawing.Point(219, 632);
-            this.WhatsappCustom.Name = "WhatsappCustom";
-            this.WhatsappCustom.Size = new System.Drawing.Size(94, 22);
-            this.WhatsappCustom.TabIndex = 24;
-            this.WhatsappCustom.Text = "Whatsapp";
-            this.WhatsappCustom.UseVisualStyleBackColor = true;
-            // 
             // VisualStudioCustom
             // 
             this.VisualStudioCustom.AutoSize = true;
             this.VisualStudioCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.VisualStudioCustom.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.VisualStudioCustom.Location = new System.Drawing.Point(31, 632);
+            this.VisualStudioCustom.Location = new System.Drawing.Point(110, 632);
             this.VisualStudioCustom.Name = "VisualStudioCustom";
             this.VisualStudioCustom.Size = new System.Drawing.Size(112, 22);
             this.VisualStudioCustom.TabIndex = 23;
@@ -539,27 +522,17 @@
             // 
             this.pictureBox12.BackgroundImage = global::StartWindow.Properties.Resources.yandex_mus_logo;
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox12.Location = new System.Drawing.Point(396, 526);
+            this.pictureBox12.Location = new System.Drawing.Point(316, 526);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(127, 100);
             this.pictureBox12.TabIndex = 14;
             this.pictureBox12.TabStop = false;
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackgroundImage = global::StartWindow.Properties.Resources.WhatsApp_logo;
-            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox11.Location = new System.Drawing.Point(219, 526);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(128, 100);
-            this.pictureBox11.TabIndex = 13;
-            this.pictureBox11.TabStop = false;
-            // 
             // pictureBox10
             // 
             this.pictureBox10.BackgroundImage = global::StartWindow.Properties.Resources.VS_logo;
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox10.Location = new System.Drawing.Point(31, 526);
+            this.pictureBox10.Location = new System.Drawing.Point(110, 526);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(128, 100);
             this.pictureBox10.TabIndex = 12;
@@ -951,7 +924,6 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -1023,7 +995,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.CheckBox GoogleChromeCustom;
-        private System.Windows.Forms.CheckBox WhatsappCustom;
         private System.Windows.Forms.CheckBox VisualStudioCustom;
         private System.Windows.Forms.CheckBox VSCodeCustom;
         private System.Windows.Forms.CheckBox UE5Custom;
@@ -1034,7 +1005,6 @@
         private System.Windows.Forms.CheckBox CapCutCustom;
         private System.Windows.Forms.CheckBox TelegramCustom;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox8;
